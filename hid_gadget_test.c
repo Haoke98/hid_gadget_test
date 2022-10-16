@@ -60,7 +60,17 @@ static struct options kval[] = {
 	{.opt = "--kp-enter",	.val = 0x58},
 	{.opt = "--up",		.val = 0x52},
 	{.opt = "--num-lock",	.val = 0x53},
-	{.opt = NULL}
+	{.opt = NULL},
+    {.opt = "1",		.val = 0x1e},
+    {.opt = "2",		.val = 0x1f},
+    {.opt = "3",		.val = 0x20},
+    {.opt = "4",		.val = 0x21},
+    {.opt = "5",		.val = 0x22},
+    {.opt = "6",		.val = 0x23},
+    {.opt = "7",		.val = 0x24},
+    {.opt = "8",		.val = 0x25},
+    {.opt = "9",		.val = 0x26},
+    {.opt = "0",		.val = 0x27},
 };
 
 int keyboard_fill_report(char report[8], char buf[BUF_LEN], int *hold)
